@@ -25,6 +25,7 @@ The first step to this analysis is to download your bank statements. The format 
 3. money in
 4. money out
 5. balance
+
 Because the transaction information is usually verbose, containing payment type, vendor, date, and references, it is impossible to do any analysis in its raw form. To normalise the records, a keyword based mapping table was used to translate the raw transaction descriptions into concise, standardised names. I also included a category corresponding to each merchant that allows grouping for expenses such as groceries from different merchants.
 
 This pipeline is not generalised to be used for an arbitrary bank, and will need editing to handle different formats of bank statements.
