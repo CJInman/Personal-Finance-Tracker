@@ -54,10 +54,10 @@ Comparing the essential and non-essential expenses, 60% of expenses we essential
 - Groceries
 - Transport
 58% of all essential expenses comprised rent, 21% comprised utility bills, and the remaining 21% of essential expenses went to groceries and transport. It is likely that all these costs are reasonably well optimised already, meaning that there is little that is actionable. Questions that could be asked, in order of importance are:
-- Is my rent exceptionally low/high for the type of housing?
-- Are my utilities overkill for me? (paying extra for super-fast broadband when not needed)
-- Can I change my primary transport? (driving vs. using a bike)
-- Can I buy more of my groceries from cheaper supermarkets?
+	- Is my rent exceptionally low/high for the type of housing?
+	- Are my utilities overkill for me? (paying extra for super-fast broadband when not needed)
+	- Can I change my primary transport? (driving vs. using a bike)
+	- Can I buy more of my groceries from cheaper supermarkets?
 #### Non-essential expenses:
 - Shopping
 - Fitness
@@ -65,14 +65,14 @@ Comparing the essential and non-essential expenses, 60% of expenses we essential
 - Food & Drink
 - Subscriptions
 Nearly 50% (47.6%) of all non-essential expenses are spent on general shopping (Amazon, JD Sports, Currys). Almost a quarter (23.4%) of non-essential spending goes on fitness related expenses, with just over 50% of that being on Decathlon related expenses. The remaining quarter of non-essential expenses goes on recreation, food & drink, and subscriptions. Questions that can be asked to minimise non-essential spending in order of importance are:
-- Do I need to spend so much on clothes and general shopping? If so, can I sell old clothes/items that I no longer need?
-- Do I need to spend this much money on decathlons?
-- Can I get a cheaper gym membership while retaining all the facilities I need?
+	- Do I need to spend so much on clothes and general shopping? If so, can I sell old clothes/items that I no longer need?
+	- Do I need to spend this much money at decathlon?
+	- Can I get a cheaper gym membership while retaining all the facilities I need?
 - In recreation:
 	- Can I buy books that are second hand, rather than new from Waterstones?
 	- Do I need to spend so much at Cineworld? Can I get a membership that maintains my access while being cheaper in the long run?
-- In food & drink, do I need to spend this much on chains? Can I prepare food and drink at home and bring it with me? Perhaps I could set a weekly/monthly budget for this
-- Are all my subscriptions necessary? Do I need to pay for both Netflix and Disney plus?
+	- In food & drink, do I need to spend this much on chains? Can I prepare food and drink at home and bring it with me? Perhaps I could set a weekly/monthly budget for this
+	- Are all my subscriptions necessary? Do I need to pay for both Netflix and Disney plus?
 ## Tools used
 - Python (pandas) to generate a mock list of transactions
 - Power BI to create all visualisations
