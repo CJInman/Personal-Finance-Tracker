@@ -65,6 +65,7 @@ Comparing the essential and non-essential expenses, 60% of expenses we essential
 - Recreation
 - Food & Drink
 - Subscriptions
+
 Nearly 50% (47.6%) of all non-essential expenses are spent on general shopping (Amazon, JD Sports, Currys). Almost a quarter (23.4%) of non-essential spending goes on fitness related expenses, with just over 50% of that being on Decathlon related expenses. The remaining quarter of non-essential expenses goes on recreation, food & drink, and subscriptions. Questions that can be asked to minimise non-essential spending in order of importance are:
 	- Do I need to spend so much on clothes and general shopping? If so, can I sell old clothes/items that I no longer need?
 	- Do I need to spend this much money at decathlon?
