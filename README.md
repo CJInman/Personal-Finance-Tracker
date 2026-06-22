@@ -30,6 +30,37 @@ Because the transaction information is usually verbose, containing payment type,
 
 This pipeline is not generalised to be used for an arbitrary bank, and will need editing to handle different formats of bank statements.
 
+### Moving averages
+To smooth out daily fluctuations in spending, I created a DAX measure to calculate the moving average over a 7, and 31 day period.
+``` DAX
+Money Out 7 Day Avg =
+    VAR EndDate =
+        MAX ( Mock_Calendar[Date] )
+
+    VAR DateWindow =
+        FILTER (
+            ALLSELECTED ( Mock_Calendar[Date] ),
+            Mock_Calendar[Date] <= EndDate
+                && Mock_Calendar[Date] > EndDate - 6
+        )
+  
+    RETURN
+    AVERAGEX (
+        DateWindow,
+        CALCULATE( [Money Out Daily] )
+    )
+```
+1. `EndDate` calculates the the current date in the visual context.
+2. `DateWindow` filters down to the dates between the current date and the previous 6 dates.
+3. `AVERAGEX` iterates through each date in `DateWindow` evaluating the daily spending measure.
+`Money Out Daily` is simply a daily aggregation to 'money out' to sum over all expenses that occurred on a single date:
+``` DAX
+Money Out Daily =
+	SUM('Mock data'[Money Out])
+```
+
+![expense_moving_average](./figures/expense_moving_average.png)
+
 ### Mock data set
 For the purposes of publishing this project, I withdrew any personal information and opted to generate a mock data set in python.
 
