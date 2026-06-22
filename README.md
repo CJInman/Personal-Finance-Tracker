@@ -9,6 +9,8 @@ This visualisation was done with Power BI due its efficiency in generating varie
 Through this dashboard, I have identified the most significant expenses, and strategies to reduce them where possible. Due to a relatively consistent income, and monotonically increasing rent (which is by far the biggest expense), between 2020 and 2024, the account balance is increasing over time. After this, it then levels off and decrease
 The goal of this project is to take bank statements and visualise the data therein, providing insight on income versus expenses.
 
+The full dashboard is viewable as a pdf in the home directory: "Personal Finance Dashboard.pdf"
+
 ## Goals
 The tool used for the visualisations is **Power BI**. The key questions this dashboard aims to answer are:
 - What are the total expenses and income for a given period?
